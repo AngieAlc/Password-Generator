@@ -48,7 +48,7 @@ hr{
     background-color: #2F3E53;
 }
 .container{
-    width: 60%; 
+    width: 52%; 
 } 
 .item{
     font-family: "Inter", sans-serif;
@@ -73,7 +73,7 @@ hr{
 }
 .parent{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 5px; 
 }
@@ -87,6 +87,9 @@ hr{
     border-left: 1px solid #1F2937;
     margin-left: 0px;
     cursor: pointer;
+}
+#btn-2:hover, #btn-1:hover{
+    opacity: 90%;
 }
 #pass2-el, #pass1-el{
     border-top-right-radius: 0px;
